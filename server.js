@@ -1,6 +1,5 @@
 const express = require('express')
 const app = express()
-const port = 3000
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 
@@ -45,6 +44,4 @@ app.get("/", function(req, res){
 })
 
 
-app.listen(3000, function(){
-    console.log("Server is running on 3000")
-})
+app.listen(process.env.PORT || 6666)
