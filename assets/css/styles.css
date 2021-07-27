@@ -1,0 +1,30 @@
+body {
+  background: #fbfbfc;
+}
+
+#hero {
+  background: url("../../assets/img/bg1-mobile.png") center / cover no-repeat;
+  width: 100%;
+  /*height: 100vh;*/
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background: url("../../assets/img/samantha-gades-BlIhVfXbi9s-unsplash.jpg") center / cover no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+#intro {
+  text-align: center;
+}
+
+.anggi {
+  clip-path: circle();
+}
+
+.taufiq {
+  clip-path: circle();
+}
+
