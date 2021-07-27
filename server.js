@@ -44,4 +44,4 @@ app.get("/", function(req, res){
 })
 
 
-app.listen(process.env.PORT || 6666)
+app.listen(process.env.PORT || 666)
